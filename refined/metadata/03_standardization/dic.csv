@@ -1,0 +1,18 @@
+id,Long,
+epi_week,Integer,
+date,Date,
+country,Byte,"{'Brazil': 1}"
+state,Byte,"{'TOTAL': 1, 'RO': 11, 'AC': 12, 'AM': 13, 'RR': 14, 'PA': 15, 'AP': 16, 'TO': 17, 'MA': 21, 'PI': 22, 'CE': 23, 'RN': 24, 'PB': 25, 'PE': 26, 'AL': 27, 'SE': 28, 'BA': 29, 'MG': 31, 'ES': 32, 'RJ': 33, 'SP': 35, 'PR': 41, 'SC': 42, 'RS': 43, 'MS': 50, 'MT': 51, 'GO': 52, 'DF': 53}"
+city,String,
+ibgeid,Integer,
+cod_regiaodesaude,Integer,
+name_regiaodesaude,Integer,
+newdeaths,Integer,
+deaths,Integer,
+newcases,Integer,
+totalcases,Integer,
+deaths_per_100k_inhabitants,Double,
+totalcases_per_100k_inhabitants,Double,
+deaths_by_totalcases,Double,
+_source,Byte,"{'SES': 1,'MS': 2,'GI': 3}"
+last_info_date,Date,
